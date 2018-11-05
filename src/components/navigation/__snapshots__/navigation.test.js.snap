@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation should render initial layout 1`] = `
+Array [
+  <BrowserRouter>
+    <div>
+      <nav
+        className="navbar navbar-expand-lg navbar-light bg-light"
+      >
+        <button
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          className="navbar-toggler"
+          data-target="#navbarNavAltMarkup"
+          data-toggle="collapse"
+          type="button"
+        >
+          <span
+            className="navbar-toggler-icon"
+          />
+        </button>
+        <div
+          className="collapse navbar-collapse"
+          id="navbarNavAltMarkup"
+        >
+          <div
+            className="navbar-nav"
+          >
+            <div>
+              <div
+                className="d-inline-flex"
+              >
+                <Link
+                  className="nav-item nav-link"
+                  replace={false}
+                  to="/"
+                >
+                  Home
+                </Link>
+                <Link
+                  className="nav-item nav-link"
+                  replace={false}
+                  to="/add-contact"
+                >
+                  Add Contact
+                </Link>
+                <Link
+                  className="nav-item nav-link"
+                  replace={false}
+                  to="/contacts"
+                >
+                  All Contacts
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/contacts"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/add-contact"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/edit-contact"
+      />
+    </div>
+  </BrowserRouter>,
+]
+`;

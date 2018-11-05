@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddContact should render initial layout 1`] = `
+Array [
+  <div
+    className="container"
+  >
+    <h2>
+      Add Contact
+    </h2>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="fName"
+        >
+          First Name
+        </label>
+        <input
+          className="form-control"
+          name="fName"
+          onChange={[Function]}
+          placeholder="Enter First Name"
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="lName"
+        >
+          Last Name
+        </label>
+        <input
+          className="form-control"
+          name="lName"
+          onChange={[Function]}
+          placeholder="Enter Last Name"
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="mobile"
+        >
+          Mobile Number
+        </label>
+        <input
+          className="form-control"
+          name="mobile"
+          onChange={[Function]}
+          pattern="[0-9]{10}"
+          placeholder="Enter Mobile Number"
+          title="Please enter valid 10 digit mobile number"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="empId"
+        >
+          Employee Id
+        </label>
+        <input
+          className="form-control"
+          name="empId"
+          onChange={[Function]}
+          placeholder="Enter Employee Id"
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        className="btn btn-primary"
+        type="submit"
+      >
+        Add Contact
+      </button>
+    </form>
+  </div>,
+]
+`;
